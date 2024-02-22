@@ -2,22 +2,37 @@
   display:flex;
   align-items:center;
   justify-content:flex-end;
-
-  font-size:20px;
+  font-size:16px;
   font-weight:500;
   margin:10px 50px 30px 0px;
 
 }
 input[type=checkbox]{
-  transform:scale(1.5);
+  transform:scale(1.2);
   color:black;
   margin:0px 2px;
+
 }
 
 
 .input-fields{
   display:flex;
-  justify-content: space-between;
-  align-items: center;
+  /*justify-content: space-between;*/
+  /*align-items: center;*/
+  /* width:100%;*/
+  margin:30px 0px;
+  box-sizing:border-box;
+  font-size:16px;
+  font-weight:500;
+
+}
+.input-fields .flex{
+  padding:0px 10px 0px 10px;
+}
+.flex span{
+  color:red;
+}
+.t-data{
+  align-items:center;
 
 }
